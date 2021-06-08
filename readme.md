@@ -1,18 +1,14 @@
-# alfred-polyglot [![npm](https://img.shields.io/npm/v/alfred-polyglot.svg)](https://npmjs.org/package/alfred-polyglot)
+# arvis-polyglot
 
-> Translate text using Google Translate in Alfred
-
-![Preview gif](media/preview.gif)
-
-[Alfred forum thread](https://www.alfredforum.com/topic/11235-polyglot-yet-another-google-translate-workflow/)
+> Translate text using Google Translate in arvis
 
 ## Install
 
 ```
-$ npm install --global alfred-polyglot
+$ npm install --global arvis-polyglot
 ```
 
-*Requires [Node.js](https://nodejs.org) 7.6+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 7.6+*
 
 
 ## Setup
@@ -22,13 +18,6 @@ $ npm install --global alfred-polyglot
  ```
  trans !set default-language (language)
  ```
-
-2. Remove the default translate workflow. Navigate to
-
- `Alfred Preferences -> Features -> Web Search`
-
- ...search for `translate`, and unset the tickbox under `Enabled`.
-
 
 ## Usage
 
