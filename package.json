@@ -1,0 +1,44 @@
+{
+  "name": "@jopemachine/arvis-polyglot",
+  "version": "0.0.5",
+  "description": "Translate text with ease using Google Translate",
+  "license": "MIT",
+  "author": {
+    "name": "nikersify",
+    "email": "nikersifyyt@gmail.com",
+    "url": "nikerino.com"
+  },
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup",
+    "test": "xo"
+  },
+  "files": [
+    "icon.png",
+    "icons",
+    "index.js",
+    "info.plist",
+    "lib",
+    "update-config.js",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "arvish",
+    "workflow"
+  ],
+  "dependencies": {
+    "@jopemachine/arvish": "^0.1.17",
+    "@vitalets/google-translate-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
