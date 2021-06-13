@@ -1,6 +1,6 @@
 {
   "name": "@jopemachine/arvis-polyglot",
-  "version": "0.0.5",
+  "version": "0.2.0",
   "description": "Translate text with ease using Google Translate",
   "license": "MIT",
   "author": {
@@ -28,10 +28,11 @@
   "keywords": [
     "arvis",
     "arvish",
-    "workflow"
+    "arvis-workflow",
+    "google-translate"
   ],
   "dependencies": {
-    "@jopemachine/arvish": "^0.1.17",
+    "@jopemachine/arvish": "^0.2.4",
     "@vitalets/google-translate-api": "^3.0.0"
   },
   "devDependencies": {

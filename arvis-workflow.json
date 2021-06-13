@@ -2,27 +2,27 @@
   "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
   "category": "Tools",
   "name": "Google Translate",
-  "createdby": "nikersify",
+  "creator": "nikersify",
   "readme": "Optional setup:\n1. !set default-language (language)\n(language) is the defautl language text gets translated to, if \"from\" parameter is not specified.\n\n2. Optional: Remove default translate workflow\nAlfred Preferences -> Features -> Web Search -> translate -> enabled: false\n\nUsage:\n(text) [from (language)] [to (language)]\n\n> trans green from en to de\n-> Grün\n\n> trans flower to af\n-> blom",
   "enabled": true,
   "defaultIcon": "icon.png",
   "commands": [
     {
-      "type": "scriptfilter",
+      "type": "scriptFilter",
       "command": "trans",
       "title": "Translate '{query}'",
       "subtitle": "",
-      "script_filter": "node index.js '{query}'",
-      "running_subtext": "Working...",
+      "scriptFilter": "node index.js '{query}'",
+      "runningSubtext": "Working...",
       "withspace": true,
-      "arg_type": "optional",
-      "action": [
+      "argType": "optional",
+      "actions": [
         {
           "modifiers": "normal",
           "type": "cond",
           "if": {
             "cond": "{var:action} == \"config\"",
-            "action": {
+            "actions": {
               "then": [
                 {
                   "modifiers": "normal",
@@ -38,7 +38,7 @@
           "type": "cond",
           "if": {
             "cond": "{var:action} == \"url\"",
-            "action": {
+            "actions": {
               "then": [
                 {
                   "modifiers": "normal",
@@ -54,13 +54,13 @@
           "type": "cond",
           "if": {
             "cond": "{var:action} == \"copy\"",
-            "action": {
+            "actions": {
               "then": [
                 {
                   "modifiers": "normal",
                   "type": "clipboard",
                   "text": "{query}",
-                  "action": [
+                  "actions": [
                     {
                       "modifiers": "normal",
                       "type": "notification",
