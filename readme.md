@@ -2,6 +2,12 @@
 
 > Translate text using Google Translate in arvis
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/nikersify/alfred-polyglot).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 ```

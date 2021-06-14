@@ -1,4 +1,4 @@
-const arvish = require('@jopemachine/arvish')
+const arvish = require('arvish')
 
 const workflow = require('./lib');
 
