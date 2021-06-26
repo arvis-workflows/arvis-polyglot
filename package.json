@@ -32,7 +32,7 @@
     "google-translate"
   ],
   "dependencies": {
-    "arvish": "^0.3.1",
+    "arvish": ">=0.3.1",
     "@vitalets/google-translate-api": "^3.0.0"
   },
   "devDependencies": {
