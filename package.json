@@ -1,6 +1,6 @@
 {
   "name": "arvis-polyglot",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Translate text with ease using Google Translate",
   "license": "MIT",
   "author": {
@@ -32,7 +32,7 @@
     "google-translate"
   ],
   "dependencies": {
-    "arvish": ">=0.3.1",
+    "arvish": ">=0.4.3",
     "@vitalets/google-translate-api": "^3.0.0"
   },
   "devDependencies": {
