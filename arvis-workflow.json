@@ -10,6 +10,8 @@
     "darwin"
   ],
   "defaultIcon": "icon.png",
+  "webAddress": "https://github.com/jopemachine/arvis-polyglot",
+  "description": "Translate text with ease using Google Translate",
   "commands": [
     {
       "type": "scriptFilter",
