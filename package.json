@@ -1,6 +1,6 @@
 {
   "name": "arvis-polyglot",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Translate text with ease using Google Translate",
   "license": "MIT",
   "author": {
@@ -14,13 +14,13 @@
   "scripts": {
     "postinstall": "arvish-init",
     "preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish",
     "test": "xo"
   },
   "files": [
     "icon.png",
     "icons",
     "index.js",
-    "info.plist",
     "lib",
     "update-config.js",
     "arvis-workflow.json"
@@ -32,7 +32,7 @@
     "google-translate"
   ],
   "dependencies": {
-    "arvish": ">=0.4.3",
+    "arvish": ">=0.5.7",
     "@vitalets/google-translate-api": "^3.0.0"
   },
   "devDependencies": {

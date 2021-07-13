@@ -5,7 +5,7 @@
   "creator": "nikersify",
   "readme": "Optional setup:\n1. !set default-language (language)\n(language) is the defautl language text gets translated to, if \"from\" parameter is not specified.\n\n2. Optional: Remove default translate workflow\nAlfred Preferences -> Features -> Web Search -> translate -> enabled: false\n\nUsage:\n(text) [from (language)] [to (language)]\n\n> trans green from en to de\n-> Grün\n\n> trans flower to af\n-> blom",
   "enabled": true,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "platform": [
     "darwin"
   ],
